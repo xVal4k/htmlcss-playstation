@@ -112,3 +112,16 @@ nav form .lens img {
     opacity: 1;
     border-bottom: 1px solid blue;
 }
+
+
+/* Section 5 */
+
+.sec5 {
+    color: white;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+}
+
+.sec5 .container img {
+    height: 20rem;    
+}
