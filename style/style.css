@@ -1,6 +1,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .mt_6 {
@@ -123,7 +124,7 @@ nav form .lens img {
 }
 
 .sec5 .container img {
-    height: 20rem;    
+    height: 15rem;    
 }
 
 
@@ -142,4 +143,15 @@ nav form .lens img {
 .sec6 .col a img {
     width: 100%;
     border-radius: 25px;
+}
+
+
+/* Section 7 */
+
+.sec7 h1 {
+    font-size: 2.5rem;
+}
+
+.sec7 img {
+    width: 100%;
 }
