@@ -12,6 +12,10 @@ html {
     padding-bottom: 5rem;
 }
 
+.pt_6 {
+    padding-top: 5rem;
+}
+
 /* Black row fixed top */
 
 .top_logo {
@@ -82,4 +86,29 @@ nav form .lens img {
 
 .sec3 .blue_text {
     color: rgb(0, 114, 206);
+}
+
+
+/* Section 4 */
+
+.sec4 .big_img img {
+    width: 100%;
+}
+
+.sec4 .small_img img {
+    width: 100%;
+}
+
+.sec4 .ps5_accessories .col {
+    opacity: .75;
+}
+
+.sec4 .ps5_accessories .col a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec4 .ps5_accessories .col:active {
+    opacity: 1;
+    border-bottom: 1px solid blue;
 }
