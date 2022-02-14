@@ -205,3 +205,53 @@ nav form .lens img {
     width: 100%;
     border-radius: 25px;
 }
+
+
+/* Footer */
+
+footer {
+    background: #00439C;
+    color: white;
+}
+
+footer .col {
+    position: relative;
+}
+
+footer .ps_logo {
+    height: 10rem ;
+}
+
+footer .down_reg {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 9rem;
+}
+
+footer .globe {
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2rem;    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Footer - Copyright */
+
+footer .copyright img {
+    height: 3rem;
+}
+
+footer .copyright a {
+    color: white;
+}
