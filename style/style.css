@@ -197,3 +197,11 @@ nav form .lens img {
     border: 1px solid transparent;
     color: black;
 }
+
+
+/* Section 11 */
+
+.sec11 img {
+    width: 100%;
+    border-radius: 25px;
+}
