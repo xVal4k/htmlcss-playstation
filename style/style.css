@@ -220,6 +220,7 @@ footer .col {
 
 footer .ps_logo {
     height: 10rem ;
+    margin-left: -1rem;
 }
 
 footer .down_reg {
