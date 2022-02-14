@@ -125,3 +125,21 @@ nav form .lens img {
 .sec5 .container img {
     height: 20rem;    
 }
+
+
+/* Section 6 */
+
+.sec6 {
+    color: white;
+    background: black;
+}
+
+.sec6 .col a {
+    text-decoration: none;
+    color: white;
+}
+
+.sec6 .col a img {
+    width: 100%;
+    border-radius: 25px;
+}
