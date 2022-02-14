@@ -10,6 +10,7 @@
     height: 1rem;
 }
 
+
 /* Navbar */
 
 .mt_6 {
@@ -35,4 +36,25 @@ nav form .lens {
 
 nav form .lens img {
     height: 1.5rem;
+}
+
+
+/* MAIN */
+
+/* Section 1 */
+
+.sec1 {
+    margin-top: 100px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    color: white;
+    padding-top: 15rem;
+}
+
+.sec1 .returnal_logo {
+    height: 3.5rem;
+}
+
+.sec1 h1 {
+    font-size: 3.5rem;
 }
