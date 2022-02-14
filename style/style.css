@@ -179,3 +179,21 @@ nav form .lens img {
 .sec9 img {
     width: 100%;
 }
+
+
+/* Section 10 */
+
+.sec10 {
+    background: #161C3B;
+    color: white;
+}
+
+.sec10 img {
+    height: 4rem ;
+}
+
+.sec10 button {
+    background-color: white;
+    border: 1px solid transparent;
+    color: black;
+}
