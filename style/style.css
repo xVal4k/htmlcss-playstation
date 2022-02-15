@@ -17,6 +17,9 @@ html {
     padding-top: 5rem;
 }
 
+.btn {
+    border: 2px solid transparent;
+}
 
 /* Black row fixed top */
 
@@ -126,9 +129,9 @@ nav .lens img {
     100% {
         bottom: 0rem;
     }
-
-
+    
 }
+
 
 /* Section 3 */
 
