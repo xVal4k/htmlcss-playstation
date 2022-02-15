@@ -26,121 +26,274 @@
         </div>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mt_6 fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white mt_6 fixed-top">
+
             <div class="container-fluid">
 
-                <a href="#!"><img src="img/play_logo.svg" alt="logo playstation"></a>
+                <a class="navbar-brand" href="#!"><img src="img/play_logo.svg" alt="logo playstation"></a>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <li class="nav-item dropdown mx-1">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Giochi <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                            <li><a class="dropdown-item" href="#" aria-current="true">----</a></li>
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                        </ul>
-                    </li>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
-                    <li class="nav-item dropdown mx-1">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Hardware <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                            <li><a class="dropdown-item" href="#" aria-current="true">----</a></li>
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown mx-1">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Servizi <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                            <li><a class="dropdown-item" href="#" aria-current="true">----</a></li>
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown mx-1">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Novità <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                            <li><a class="dropdown-item" href="#" aria-current="true">----</a></li>
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown mx-1">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Fai acquisti <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                            <li><a class="dropdown-item" href="#" aria-current="true">----</a></li>
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown mx-1">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Supporto <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                            <li><a class="dropdown-item" href="#" aria-current="true">----</a></li>
-                            <li><a class="dropdown-item" href="#">----</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <form class="d-none d-lg-flex">
-
-                    <ul class="navbar-nav mx-2 mb-2 mb-lg-0">
-
-                        <li class="nav-item dropdown">
+                        <li class="nav-item mx-1">
                             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                My PlayStation <i class="fa-solid fa-angle-down"></i><i
-                                    class="fa-solid fa-angle-up"></i>
+                                Giochi <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">----</a></li>
-                                <li><a class="dropdown-item" href="#" aria-current="true">----</a></li>
-                                <li><a class="dropdown-item" href="#">----</a></li>
+                            <ul class="dropdown-menu mt-0 w-100 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps5</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps4</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps3</div>
+                                    </a>
+                                </li>
+
+                                <li class="dropdown-divider"></li>
+
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Hardware <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
+                            </a>
+                            <ul class="dropdown-menu mt-0 w-100 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps5</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps4</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps3</div>
+                                    </a>
+                                </li>
+
+                                <li class="dropdown-divider"></li>
+
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servizi <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
+                            </a>
+                            <ul class="dropdown-menu mt-0 w-100 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps5</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps4</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps3</div>
+                                    </a>
+                                </li>
+
+                                <li class="dropdown-divider"></li>
+
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Novità <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
+                            </a>
+                            <ul class="dropdown-menu mt-0 w-100 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps5</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps4</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps3</div>
+                                    </a>
+                                </li>
+
+                                <li class="dropdown-divider"></li>
+
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Fai acquisti <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
+                            </a>
+                            <ul class="dropdown-menu mt-0 w-100 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps5</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps4</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps3</div>
+                                    </a>
+                                </li>
+                                <li class="dropdown-divider"></li>
+
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Supporto <i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i>
+                            </a>
+                            <ul class="dropdown-menu mt-0 w-100 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps5</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps4</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps3</div>
+                                    </a>
+                                </li>
+
+                                <li class="dropdown-divider"></li>
+
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#">Link Giochi</a></li>
+
                             </ul>
                         </li>
 
                     </ul>
 
-                    <button class="btn btn-outline-success rounded-pill" type="submit">Accedi</button>
-                    <a class="lens" href="#!"><img src="img/lens.svg" alt="lens icon"></a>
+                    <ul class="navbar-nav align-items-center mb-2">
 
-                </form>
+                        <li class="nav-item mx-1">
 
-                <div class="dropdown d-lg-none">
-                    <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <li><button class="dropdown-item" type="button">Action</button></li>
-                        <li><button class="dropdown-item" type="button">Another action</button></li>
-                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                My Playstation <i class="fa-solid fa-angle-down"></i><i
+                                    class="fa-solid fa-angle-up"></i>
+                            </a>
+                            <ul class="dropdown-menu mt-0 w-100 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps5</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item text-center" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps4</div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="">
+                                        <div>Ps3</div>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a href="#" class="btn btn-dark rounded-pill">Accedi</a>
+                        </li>
+
+                        <li class="nav-item mx-1 text-center">
+                            <a class="lens" href="#!"><img src="img/lens.svg"></a>
+                        </li>
+
                     </ul>
+
                 </div>
 
             </div>
