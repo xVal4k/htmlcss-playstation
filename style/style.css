@@ -152,6 +152,7 @@ nav .lens img {
 
 .sec4 .ps5_accessories .col {
     opacity: .75;
+    border-bottom: 2px solid transparent;
 }
 
 .sec4 .ps5_accessories .col a {
