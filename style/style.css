@@ -81,6 +81,11 @@ nav .lens img {
     height: 1.5rem;
 }
 
+nav .menu_dropdw {
+    border-bottom: 2px solid black;
+    box-shadow: 0px 15px 10px -10px gray;
+}
+
 nav .fa-circle {
     font-size: 7px;
     margin-right: 5px;
@@ -92,7 +97,7 @@ nav .fa-circle {
 
 /* Section 1 */
 
-.sec1 {
+#sec1 {
     margin-top: 100px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -101,20 +106,20 @@ nav .fa-circle {
     padding-top: 15rem;
 }
 
-.sec1 .returnal_logo {
+#sec1 .returnal_logo {
     height: 3rem;
 }
 
 
 /* Section 2 */
 
-.sec2 img {
+#sec2 img {
     width: 100%;
     border-radius: 20px;
     position: relative;
 }
 
-.sec2 a:hover img {
+#sec2 a:hover img {
     box-shadow: 0 0 5px 5px blue;
     animation: move 2s linear infinite;
 }
@@ -141,32 +146,32 @@ nav .fa-circle {
 
 /* Section 3 */
 
-.sec3 .blue_text {
+#sec3 .blue_text {
     color: rgb(0, 114, 206);
 }
 
 
 /* Section 4 */
 
-.sec4 .big_img img {
+#sec4 .big_img img {
     width: 100%;
 }
 
-.sec4 .small_img img {
+#sec4 .small_img img {
     width: 100%;
 }
 
-.sec4 .ps5_accessories .col {
+#sec4 .ps5_accessories .col {
     opacity: .75;
     border-bottom: 2px solid transparent;
 }
 
-.sec4 .ps5_accessories .col a {
+#sec4 .ps5_accessories .col a {
     text-decoration: none;
     color: black;
 }
 
-.sec4 .ps5_accessories .col:hover {
+#sec4 .ps5_accessories .col:hover {
     opacity: 1;
     border-bottom: 2px solid blue;
 }
@@ -174,31 +179,31 @@ nav .fa-circle {
 
 /* Section 5 */
 
-.sec5 {
+#sec5 {
     color: white;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.sec5 .container img {
+#sec5 .container img {
     height: 10rem;    
 }
 
 
 /* Section 6 */
 
-.sec6 {
+#sec6 {
     color: white;
     background: black;
 }
 
-.sec6 .col a {
+#sec6 .col a {
     text-decoration: none;
     color: white;
 }
 
-.sec6 .col a img {
+#sec6 .col a img {
     width: 100%;
     border-radius: 25px;
 }
@@ -206,26 +211,26 @@ nav .fa-circle {
 
 /* Section 7 */
 
-.sec7 h1 {
+#sec7 h1 {
     font-size: 2.5rem;
 }
 
-.sec7 img {
+#sec7 img {
     width: 100%;
 }
 
 
 /* Section 8 */
 
-.sec8 {
+#sec8 {
     background: #BEBCBB;
 }
 
-.sec8 .logo_ps_plus {
+#sec8 .logo_ps_plus {
     height: 4rem ;
 }
 
-.sec8 button {
+#sec8 button {
     background-color: rgba(255, 255, 255, 0.522);
     border: 1px solid transparent;
     color: #2D64E6;
@@ -234,23 +239,23 @@ nav .fa-circle {
 
 /* Section 9 */
 
-.sec9 img {
+#sec9 img {
     width: 100%;
 }
 
 
 /* Section 10 */
 
-.sec10 {
+#sec10 {
     background: #161C3B;
     color: white;
 }
 
-.sec10 .logo_ps_now {
+#sec10 .logo_ps_now {
     height: 4rem ;
 }
 
-.sec10 button {
+#sec10 button {
     background-color: white;
     border: 1px solid transparent;
     color: black;
@@ -259,7 +264,7 @@ nav .fa-circle {
 
 /* Section 11 */
 
-.sec11 img {
+#sec11 img {
     width: 100%;
     border-radius: 25px;
 }
