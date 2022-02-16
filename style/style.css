@@ -81,6 +81,12 @@ nav .lens img {
     height: 1.5rem;
 }
 
+nav .fa-circle {
+    font-size: 7px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
 
 /* MAIN */
 
